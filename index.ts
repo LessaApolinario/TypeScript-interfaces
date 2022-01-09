@@ -1,5 +1,4 @@
 import User from './user';
-import Person from './person';
 
 // Criando um objeto do tipo User
 // Notar que nickname é opcional
