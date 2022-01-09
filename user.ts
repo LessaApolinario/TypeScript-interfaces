@@ -1,6 +1,7 @@
-interface User {
-  name: string;
-  age: number;
+import Person from './person';
+
+// extendendo da interface Person
+interface User extends Person {
   nickname?: string;
   email: string;
   password: string;
